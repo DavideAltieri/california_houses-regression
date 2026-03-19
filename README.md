@@ -89,8 +89,6 @@ And the target variable:
 
 ## How to Run
 
-If not already installed, it is necessary to install the libraries:
-
 If the libraries are not installed, run:
 
 ```bash
@@ -104,7 +102,7 @@ python main.py
 
 ## Results
 
-The results show that XGBoost trained on the feature-engineered dataset is the best-performing model among those considered. It achieves the lowest RMSE and MAE, together with the highest R² score, both during cross-validation and on the test set.
+The results show that XGBoost trained on the feature-engineered dataset is the best performing model among those considered. It achieves the lowest RMSE and MAE, together with the highest R² score, both during cross-validation and on the test set.
 
 Hyperparameter optimization provides a further, though limited, improvement, suggesting that the model configuration was already effective before tuning. More generally, the similarity between cross-validation and test-set results indicates that the models generalize well and do not show signs of overfitting.
 
