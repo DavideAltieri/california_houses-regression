@@ -1,10 +1,10 @@
 # California Houses Regression
 
-This project is machine learning regression task focused on predicting California house values using the popular **California Housing** dataset from *scikit-learn*.  
+This project is a machine learning regression task focused on predicting California house values using the popular **California Housing** dataset from *scikit-learn*.  
 
 ## Project Goal
 
-The goal is to build and evaluate regression models necessary to understand median home values ​​based on the features of the dataset.
+The goal is to build and evaluate regression models to predict median house values ​​based on the features of the dataset.
 
 Exploratory data analysis (EDA) is used in a structured environment to analyze the dataset's aggregate characteristics, including feature distributions and potential skewness.
 
@@ -32,13 +32,13 @@ Finally, the best-performing model is further optimized through hyperparameter t
 
 This project uses the **California Housing dataset** provided by *scikit-learn*.
 
-The dataset is composed by the following features:
+The dataset is composed of the following features:
 
 - **MedInc**: Median income of households in a block group (measured in tens of thousands of US dollars).
 - **HouseAge**: Median age of houses in the block group.
 - **AveRooms**: Average number of rooms per household.
 - **AveBedrms**: Average number of bedrooms per household.
-- **Popoulation**: Total number of people living in the block group.
+- **Population**: Total number of people living in the block group.
 - **AveOccup**: Average number of people per household.
 - **Latitude**: Geographic latitude of the block group.
 - **Longitude**: Geographic longitude of the block group.
@@ -51,7 +51,7 @@ And the target variable:
 
 - Load the dataset
 
-- Run textual EDA
+- Perform textual EDA
 
   - head of the dataset
 
@@ -85,7 +85,7 @@ And the target variable:
 
 - Analyze the models’ results and insights with a fair comparison.
 
-*The notebook explains the whole workflow step by step during execution*.
+*The notebook explains the workflow and the results step by step during execution*.
 
 ## How to Run
 
